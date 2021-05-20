@@ -1,0 +1,84 @@
+.option-container {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.option {
+  width: 70px;
+  height: 70px;
+  background-color: #e9e9e9;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px -6px 0px 0px #bdbdd1;
+}
+.item {
+  height: 60%;
+  width: 60%;
+}
+.board {
+  width: 150px;
+  background-color: #f8f8f8;
+  align-self: stretch;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #5b596d;
+}
+.rule-header {
+  color: #3543ae;
+  margin-top: 0.5rem;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.paper {
+  box-shadow: 0px 6px 0px 0px #334aae;
+  background-color: #556ff7;
+  right: -10%;
+  top: 25%;
+}
+.spock {
+  box-shadow: 0px 6px 0px 0px #2c8fad;
+  background-color: #4ebad2;
+  top: 25%;
+  left: -10%;
+}
+.lizard {
+  box-shadow: 0px 6px 0px 0px #443775;
+  background-color: #8e59e8;
+  bottom: -10%;
+}
+.rock {
+  box-shadow: 0px 6px 0px 0px #9f1633;
+  background-color: #df3b59;
+  bottom: -10%;
+  right: 0;
+}
+.scissors {
+  box-shadow: 0px 6px 0px 0px #ca752b;
+  background-color: #e4a421;
+  left: 35%;
+  top: -10%;
+}
+@media only screen and (max-width: 376px) {
+  .option-container {
+    height: 70px;
+    width: 70px;
+  }
+  .item {
+    height: 60%;
+    width: 60%;
+  }
+  .option {
+    width: 45px;
+    height: 45px;
+  }
+}

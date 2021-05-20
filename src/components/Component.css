@@ -1,0 +1,77 @@
+.header {
+  width: 70%;
+  border: 5px solid #5d6b86;
+  display: flex;
+  border-radius: 20px;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+
+  margin: 0 auto;
+}
+.header-options {
+  text-align: left;
+  color: #f8f8f8;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.bg-container {
+  position: relative;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+}
+.options-container {
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.rule {
+  height: 370px;
+  width: 340px;
+  background-repeat: no-repeat;
+}
+.rules-header div {
+  color: #3543ae;
+  margin-top: 0.5rem;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.rule-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 450px;
+  margin-top: 2rem;
+  width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.rules-header {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.rule-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.518);
+}
+@media only screen and (max-width: 648px) {
+  .rule-wrapper {
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .bg-container {
+    width: 200px;
+    height: 200px;
+  }
+}
