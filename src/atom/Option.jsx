@@ -6,7 +6,7 @@ const Option = ({ style, imageUrl, className }) => {
   return (
     <div
       className={`option-container ${className}`}
-      style={{ position: "absolute", ...style }}
+      style={{ position: "absolute",cursor: "pointer", ...style }}
     >
       <div className="option">
         <img src={imageUrl} alt="Option" className="item" />
